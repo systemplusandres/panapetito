@@ -1,3 +1,11 @@
+<script setup>
+    import { useRoute } from "vue-router";
+    import Productos from "@/components/Productos.vue";
+
+    const route = useRoute()
+    const categoria = route.params.categoria
+</script>
+
 <template>
-    <h1>Hola SystemPlus</h1>
+    <Productos :categoria="categoria" />
 </template>

@@ -2,8 +2,9 @@
 import { ref, watchEffect } from "vue";
 import Titulo from "@/components/TituloSeccion.vue";
 import listaProductos from "@/panaderia.json";
+import { defineProps} from "vue"
 
-defineProps({
+const props = defineProps({
   categoria: String,
 });
 
@@ -66,5 +67,18 @@ watchEffect(() => {
     font-weight: bold;
     font-size: 1.25rem;
 }
+
+@media (max-width: 1024px) and (min-width: 768px) {
+    .productos {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .productos {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
 
 </style>

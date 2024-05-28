@@ -74,21 +74,21 @@
     "precio": 3000,
     "descripcion": "Café espresso italiano con crema espesa.",
     "imagen": "cafe-espresso.webp",
-    "categoria": "café"
+    "categoria": "cafe"
   },
   {
     "producto": "Café americano",
     "precio": 3000,
     "descripcion": "Café americano suave y aromático.",
     "imagen": "cafe-americano.webp",
-    "categoria": "café"
+    "categoria": "cafe"
   },
   {
     "producto": "Café con leche",
     "precio": 4000,
     "descripcion": "Café espresso con leche caliente.",
     "imagen": "cafe-con-leche.webp",
-    "categoria": "café"
+    "categoria": "cafe"
   },
   {
     "producto": "Jugo de naranja",
